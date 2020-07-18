@@ -1,0 +1,371 @@
+/*================ Credit =====================*/
+/*Author: Muhammad Abba Gana
+Gsm: +2349039016969
+Whatsapp: +2349039016969
+Email: Abbagana79@gmail.com
+Website: Abbagana.com.ng
+Facebook: Muhammad Abba Gana Kolo
+Instagram: Real_abbagana
+Company: Be With Me Technologies
+Company Website: bewithmetech.com.ng*/
+/*=======================================*/
+
+/*remove default browser style*/
+
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+/*Style main wrapper*/
+.main {
+	background: #f3f3f3;
+	width: 100%;
+}
+
+/*header style*/
+.header {
+	width: 100%;
+	height: 70px;
+	padding-top: 20px;
+}
+.header p {
+	font-family: sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	color: #ff69b4;
+}
+
+/*login Wrapper*/
+.login-wrapper {
+	width: 600px;
+	height: 480px;
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 20px;
+}
+/*Brand logo*/
+.brand {
+	width: 100%;
+	text-align: center;
+}
+.brand img {
+	width: 100px;
+	height: 100px;
+}
+
+/*Form Style*/
+.login-form {
+	margin: 8px 10px;
+}
+.login-form h2 {
+	font-family: sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ff69b4;
+}
+/*Form input type*/
+.input-form {
+	width: 100%;
+    color: #000;
+    outline: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    border: 2px solid rgba(38, 39, 45, .2);
+    background-color: transparent;
+    border-radius: 5px;
+    padding-left: 38px;
+    margin-top: 15px;
+}
+
+.input-form:focus {
+	border: 2px solid #ff69b4;
+}
+
+/*Submit button*/
+.input-submit {
+	width: 100%;
+    outline: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    text-transform: uppercase;
+    background-color: #ff69b4;
+    color: #fff;
+}
+
+.input-submit:hover {
+	background-color: #f13493;
+	cursor: pointer; 
+}
+
+/*Important Links*/
+.important-links {
+	width: 100%;
+}
+.important-links p{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 10px;
+	font-family: sans-serif;
+	text-transform: capitalize;
+}
+.option-sep {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    font-size: 14px;
+    margin: 10px 0;
+    text-transform: uppercase; 
+}
+.option-sep:before {
+	background: #d6d9da;
+	content: "";
+	height: 1px;
+	right: 50%;
+	margin-right: 28px;
+	position: absolute;
+	top: 50%;
+	width: 100%; 
+}
+.option-sep:after {
+	background: #d6d9da;
+	content: "";
+	height: 1px;
+	left: 50%;
+	margin-left: 28px;
+	position: absolute;
+	top: 50%;
+	width: 100%; 
+}
+/*Action Buttons*/
+.action-btn {
+	width: 100%;
+	margin: 10px;
+}
+.signup {
+	font-family: sans-serif;
+	display: block;
+	width: 40%;
+	background-color: #ff69b4;
+	color: #fff;
+	height: 20px;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	line-height: 20px;
+}
+.reset {
+	font-family: sans-serif;
+	display: block;
+	width: 40%;
+	background-color: #ff69b4;
+	color: #fff;
+	height: 20px;
+	padding: 10px;
+	float: right;
+	text-align: center;
+	line-height: 20px;
+}
+
+.signup:hover, .reset:hover {
+	background-color: #f13493;
+	cursor: pointer; 
+}
+
+/*Home Page Style*/
+.welcome-text {
+	padding: 30px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+.welcome-p {
+	padding: 30px;
+	text-transform: capitalize;
+	font-family: sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+/*Error Respond message*/ 
+.error-respond {
+	background-color: #ff0000;
+	width: 100%;
+	height: 40px;
+}
+
+.error-respond p {
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.success-respond {
+	background-color: #008000;
+	width: 100%;
+	height: 40px;
+}
+
+.success-respond p {
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.logout a {
+	background-color: #ff69b4;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	text-transform: uppercase;
+	width: 80px;
+}
+
+.logout a:hover {
+	background-color: #f13493;
+	cursor: pointer; 
+}
+
+/*Signup Page*/
+.signup-wrapper {
+	width: 600px;
+	height: 620px;
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 20px;
+}
+.signup-form {
+	margin: 10px;
+}
+.signup-form h2 {
+	font-family: sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ff69b4;
+}
+.empty-space {
+	padding: 10px;
+}
+.empty-space-login {
+	padding: 3px;
+}
+
+/*footer design*/
+.footer {
+	width: 100%;
+	height: 40px;
+	background-color: #ff69b4;
+	color: #fff;
+	text-align: center;
+}
+
+.footer p {
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+.footer p a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer p a:hover {
+	color: #000;
+}
+
+/*Responsive Design*/
+
+@media (max-width: 992px) { 
+	.header {
+		padding-top: 80px;
+		padding-bottom: 60px;
+		height: auto;
+	} 
+	.header p {
+		font-size: 60px;
+		font-weight: 700;
+		color: #ff69b4;
+		padding: 0px 20px;
+	}
+	.login-wrapper {
+		width: 80%;
+		height: 66em;
+		margin-bottom: 180px;
+	}
+	.brand img {
+		width: 300px;
+		height: 300px;
+	}
+	.login-form h2 {
+		font-size: 40px;
+	}
+	.input-form {
+		height: 120px;
+	    font-size: 36px;
+	}
+	.input-submit {
+	    font-size: 36px;
+	    height: 120px;
+	}
+	.important-links p{
+		font-size: 36px;
+		margin-top: 20px;
+	}
+	.option-sep {
+	    font-size: 34px;
+	}
+	.signup, .reset {
+		height: 50px;
+		line-height: 50px;
+		font-size: 29px;
+	}
+	.error-respond, .success-respond {
+		height: 80px;
+	}
+	.error-respond p, .success-respond p {
+		font-size: 32px;
+		line-height: 80px;
+	}
+	.footer {
+		height: 180px;
+		position: fixed;
+		bottom: 0px;
+		right: 0px;
+		left: 0px;
+		overflow: hidden;
+	}
+	.footer p {
+		font-size: 29px;
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 576px) { 
+	.main {
+		display: none;
+	}
+}
