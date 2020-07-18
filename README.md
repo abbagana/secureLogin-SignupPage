@@ -1,5 +1,5 @@
 # SecureLogin-SignupPage
-Secure login and Signup page in PHP using prepare statement
+Secure login and Signup page in PHP using prepare statement (Procedural style)
 
 
 Implementing User Authentication Mechanism
